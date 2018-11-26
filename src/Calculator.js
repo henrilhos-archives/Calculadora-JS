@@ -1,8 +1,6 @@
 function Calculator() {
     return {
-        calculate: function(operator) {
-            var num1 = parseFloat(document.getElementById('num1').value)
-            var num2 = parseFloat(document.getElementById('num2').value)
+        calculate: function(operator, num1, num2) {
             var response = 0
 
             switch (operator) {
@@ -24,12 +22,14 @@ function Calculator() {
             }
 
             return response
-            // document.getElementById('response').innerHTML = response
         }
     }
 }
 
 function calculate(operator) {
     var calculator = new Calculator()
-    document.getElementById('response').innerHTML = calculator.calculate(operator)
+    var num1 = parseFloat(document.getElementById('num1').value)
+    var num2 = parseFloat(document.getElementById('num2').value)
+
+    document.getElementById('response').innerHTML = calculator.calculate(operator, num1, num2)
 }
