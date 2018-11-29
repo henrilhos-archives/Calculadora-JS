@@ -137,6 +137,13 @@
       ],
       "value": "2"
     }, {
+      "id": "63ab670b-3430-440b-b155-b45542e965d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueB",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "ba45f15c-0747-434c-b5c0-0451a5505719",
       "comment": "",
       "command": "type",
@@ -213,6 +220,13 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": "2"
+    }, {
+      "id": "d9ff0e06-1c57-48d5-a5d3-39dcbf793639",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueB",
+      "targets": [],
+      "value": ""
     }, {
       "id": "a5e7ba1d-8cfd-457b-97ac-414bd425b5d3",
       "comment": "",
@@ -291,6 +305,13 @@
       ],
       "value": "2"
     }, {
+      "id": "d351ae20-d5b5-48d2-9540-cf12f490e088",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueB",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "e3349af1-b851-4838-bfb9-fb6aca5dabbb",
       "comment": "",
       "command": "type",
@@ -368,6 +389,13 @@
       ],
       "value": "2"
     }, {
+      "id": "0660e03e-6c5d-4c6a-acfd-1bcfcf41ea93",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueB",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "478e43a9-9c7b-4972-b1d0-43390a71c10c",
       "comment": "",
       "command": "type",
@@ -421,7 +449,7 @@
     }]
   }, {
     "id": "fad2b6f9-69e0-467c-949d-448c999cb20e",
-    "name": "Verificar mensagem de erro",
+    "name": "Dois inputs vazios",
     "commands": [{
       "id": "ed3b4b41-fe68-411c-b2a2-6cd6151106ab",
       "comment": "",
@@ -436,6 +464,394 @@
       "target": "960x1002",
       "targets": [],
       "value": ""
+    }, {
+      "id": "4a80501e-e9a5-4b36-aa09-3589350f6387",
+      "comment": "",
+      "command": "click",
+      "target": "id=addition",
+      "targets": [
+        ["id=addition", "id"],
+        ["css=#addition", "css"],
+        ["css=#addition", "css:finder"],
+        ["xpath=//button[@id='addition']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1745652-ff2e-4981-ae13-647c614281da",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro e o segundo valor são inválidos."
+    }, {
+      "id": "18d731e9-7ac2-486d-b24c-aadf131c7262",
+      "comment": "",
+      "command": "click",
+      "target": "id=subtraction",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae911f6-3cdf-4f40-9884-86f6abe6e167",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro e o segundo valor são inválidos."
+    }, {
+      "id": "4f9a3eb1-ae1b-418f-b619-ca0024de2d7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=multiplication",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af130ec3-ad39-4a0b-aadd-61a31a8e53c3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro e o segundo valor são inválidos."
+    }, {
+      "id": "9980b4ff-bab6-4b45-9b55-688ba503f0f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=division",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3642c08a-831f-48bc-bb49-0831fd3732b7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro e o segundo valor são inválidos."
+    }, {
+      "id": "408224e7-5d6d-49b6-8bf4-5bcdd6ded41c",
+      "comment": "",
+      "command": "click",
+      "target": "id=exponentiation",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728d2a12-5c3d-46fe-b7a9-45e03234b0be",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro e o segundo valor são inválidos."
+    }]
+  }, {
+    "id": "c8438cc6-b5db-4a5e-80d0-b1788bdecf75",
+    "name": "Primeiro input vazio",
+    "commands": [{
+      "id": "f7dd7ceb-884f-4ac5-8877-5eaf484251c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://castilh0s.github.io/Calculadora-JS/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f15a7a22-a7b8-4c5c-863d-158a28886408",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x1002",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bed09f9-3953-40e8-9a85-899f48174bfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueB",
+      "targets": [
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8476f046-d37f-4877-9e63-15475737eeb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=valueB",
+      "targets": [
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "89820cc3-6778-4790-bf6b-8937631b1610",
+      "comment": "",
+      "command": "click",
+      "target": "id=addition",
+      "targets": [
+        ["id=addition", "id"],
+        ["css=#addition", "css"],
+        ["css=#addition", "css:finder"],
+        ["xpath=//button[@id='addition']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e9f05e4-f6ce-4ba7-a4b4-3f128c580ffb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro valor é inválido."
+    }, {
+      "id": "1e590f44-325e-4c1e-af5f-984874d05915",
+      "comment": "",
+      "command": "click",
+      "target": "id=subtraction",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f06db71-a5da-43ee-ae36-6454788d571a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro valor é inválido."
+    }, {
+      "id": "a536930b-74c4-4af2-9d04-ca32eb733704",
+      "comment": "",
+      "command": "click",
+      "target": "id=multiplication",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dd7899d-5eac-4248-ba8b-8990023bb515",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro valor é inválido."
+    }, {
+      "id": "c6161eff-7125-41a3-8898-ef2241831119",
+      "comment": "",
+      "command": "click",
+      "target": "id=division",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef03948-b0a9-4b26-b4ba-838a5849e9e1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro valor é inválido."
+    }, {
+      "id": "8d8725f8-fa48-4f75-9dda-6c7c7d4e32d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=exponentiation",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "800bd012-2b73-4013-a086-ef44eb982e9f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O primeiro valor é inválido."
+    }]
+  }, {
+    "id": "43ab08a7-10e7-44cb-8242-5a3c71833a98",
+    "name": "Segundo input vazio",
+    "commands": [{
+      "id": "4616aef3-a758-4508-a5b6-67dcea0e9159",
+      "comment": "",
+      "command": "open",
+      "target": "https://castilh0s.github.io/Calculadora-JS/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88110889-cd13-4b10-bf51-ead5d7e13811",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x1002",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e328775e-c256-48d0-a3ec-8a1cfd451164",
+      "comment": "",
+      "command": "click",
+      "target": "id=valueA",
+      "targets": [
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e96f20-4555-4e57-a2fa-520c8c7ecd8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=valueA",
+      "targets": [
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "41880a22-265b-443c-b7ae-3bb9798b7082",
+      "comment": "",
+      "command": "click",
+      "target": "id=addition",
+      "targets": [
+        ["id=addition", "id"],
+        ["css=#addition", "css"],
+        ["css=#addition", "css:finder"],
+        ["xpath=//button[@id='addition']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c705aad-8bbb-4586-9d26-349227749ced",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O seguundo valor é inválido."
+    }, {
+      "id": "7a299d88-5272-47c5-bce9-98fb2e199d2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=subtraction",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d349e08-0a95-458c-b415-1dac621611de",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O seguundo valor é inválido."
+    }, {
+      "id": "f1427de5-e283-456c-a6a9-2680c81e3991",
+      "comment": "",
+      "command": "click",
+      "target": "id=multiplication",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de7a755-9aa5-4628-b873-cd080388945b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O seguundo valor é inválido."
+    }, {
+      "id": "e47e6ba3-4da6-4fbf-974b-0c762b20d052",
+      "comment": "",
+      "command": "click",
+      "target": "id=division",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c85390-af03-4b2e-b599-90899b11312b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O seguundo valor é inválido."
+    }, {
+      "id": "fbc32f03-0c5d-4aa9-bffa-08eb70c096ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=exponentiation",
+      "targets": [
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c9232a-2b41-411e-9710-df442029513b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=alert-message",
+      "targets": [],
+      "value": "O seguundo valor é inválido."
     }]
   }],
   "suites": [{
