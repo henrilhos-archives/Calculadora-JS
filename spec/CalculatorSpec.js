@@ -27,6 +27,8 @@ describe('Calculator', function() {
   it('Deve efetuar uma adição com dois valores randômicos', function() {
     var valueA = randomIntFromInterval(0, 100)
     var valueB = randomIntFromInterval(0, 100)
+    console.log('ValueA: ' + valueA)
+    console.log('ValueB: ' + valueB)
     var result = addition(valueA, valueB)
     expect(result).toBe(valueA + valueB)
   })
@@ -34,6 +36,8 @@ describe('Calculator', function() {
   it('Deve efetuar uma subtração com dois valores randômicos', function() {
     var valueA = randomIntFromInterval(0, 100)
     var valueB = randomIntFromInterval(0, 100)
+    console.log('ValueA: ' + valueA)
+    console.log('ValueB: ' + valueB)
     var result = subtraction(valueA, valueB)
     expect(result).toBe(valueA - valueB)
   })
@@ -41,6 +45,8 @@ describe('Calculator', function() {
   it('Deve efetuar uma multiplicação com dois valores randômicos', function() {
     var valueA = randomIntFromInterval(0, 100)
     var valueB = randomIntFromInterval(0, 100)
+    console.log('ValueA: ' + valueA)
+    console.log('ValueB: ' + valueB)
     var result = multiplication(valueA, valueB)
     expect(result).toBe(valueA * valueB)
   })
@@ -48,6 +54,8 @@ describe('Calculator', function() {
   it('Deve efetuar uma divisão com dois valores randômicos', function() {
     var valueA = randomIntFromInterval(0, 100)
     var valueB = randomIntFromInterval(0, 100)
+    console.log('ValueA: ' + valueA)
+    console.log('ValueB: ' + valueB)
     var result = division(valueA, valueB)
     expect(result).toBe(valueA / valueB)
   })
@@ -55,6 +63,8 @@ describe('Calculator', function() {
   it('Deve efetuar uma exponenciação com dois valores randômicos', function() {
     var valueA = randomIntFromInterval(0, 100)
     var valueB = randomIntFromInterval(0, 100)
+    console.log('ValueA: ' + valueA)
+    console.log('ValueB: ' + valueB)
     var result = exponentiation(valueA, valueB)
     expect(result).toBe(valueA ** valueB)
   })
