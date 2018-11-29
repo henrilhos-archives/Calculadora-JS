@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Calculadora</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="src/calculate.js"></script>
     <script src="src/Calculator.js"></script>
+    <script src="src/operations/Addition.js"></script>
+    <script src="src/operations/Division.js"></script>
+    <script src="src/operations/Exponentiation.js"></script>
+    <script src="src/operations/Multiplication.js"></script>
+    <script src="src/operations/Subtraction.js"></script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -27,35 +33,35 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text">Primeiro valor</span>
                 </div>
-                <input id="num1" type="number" class="form-control">
+                <input id="valueA" type="number" class="form-control">
             </div>
 
             <div class="input-group mb-3 col">
                 <div class="input-group-prepend">
                   <span class="input-group-text">Segundo valor</span>
                 </div>
-                <input id="num2" type="number" class="form-control">
+                <input id="valueB" type="number" class="form-control">
             </div>
         </div>
 
         <div class="row">
-            <button onclick="calculate('plus')" id="plus"
+            <button onclick="calculate(addition)" id="plus"
                 class="btn col btn-outline-primary mx-2"
                 data-toggle="tooltip" data-placement="top" title="Somar"
             ><i class="fas fa-plus"></i></button>
-            <button onclick="calculate('minus')" id="minus"
+            <button onclick="calculate(subtraction)" id="minus"
                 class="btn col btn-outline-primary mx-2"
                 data-toggle="tooltip" data-placement="top" title="Diminuir"
             ><i class="fas fa-minus"></i></button>
-            <button onclick="calculate('times')" id="times"
+            <button onclick="calculate(multiplication)" id="times"
                 class="btn col btn-outline-primary mx-2"
                 data-toggle="tooltip" data-placement="top" title="Multiplicar"
             ><i class="fas fa-times"></i></button>
-            <button onclick="calculate('divide')" id="divide"
+            <button onclick="calculate(division)" id="divide"
                 class="btn col btn-outline-primary mx-2"
                 data-toggle="tooltip" data-placement="top" title="Dividir"
             ><i class="fas fa-divide"></i></button>
-            <button onclick="calculate('raised')" id="raised"
+            <button onclick="calculate(exponentiation)" id="raised"
                 class="btn col btn-outline-primary mx-2"
                 data-toggle="tooltip" data-placement="top" title="Exponenciar"
             ><i class="fas fa-superscript"></i></button>
