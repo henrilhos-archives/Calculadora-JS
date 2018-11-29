@@ -10,14 +10,14 @@
       "id": "4547f014-acb4-429c-b701-398ce3b4d2ba",
       "comment": "",
       "command": "open",
-      "target": "/Calculadora-JS/",
+      "target": "https://castilh0s.github.io/Calculadora-JS/",
       "targets": [],
       "value": ""
     }, {
       "id": "94772e8a-21db-4507-8920-7b1e3dfef99a",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1920x1002",
+      "target": "960x1002",
       "targets": [],
       "value": ""
     }, {
@@ -76,12 +76,12 @@
       "id": "b3193859-41b7-4e28-b44a-5ff00915228f",
       "comment": "",
       "command": "click",
-      "target": "id=plus",
+      "target": "id=addition",
       "targets": [
-        ["id=plus", "id"],
-        ["css=#plus", "css"],
-        ["css=#plus", "css:finder"],
-        ["xpath=//button[@id='plus']", "xpath:attributes"],
+        ["id=addition", "id"],
+        ["css=#addition", "css"],
+        ["css=#addition", "css:finder"],
+        ["xpath=//button[@id='addition']", "xpath:attributes"],
         ["xpath=//button", "xpath:position"]
       ],
       "value": ""
@@ -153,13 +153,13 @@
       "id": "2ba61056-51af-4ec1-a7d0-d836d60e65f9",
       "comment": "",
       "command": "click",
-      "target": "id=minus",
+      "target": "id=subtraction",
       "targets": [
-        ["id=divide", "id"],
-        ["css=#divide", "css"],
-        ["css=#divide", "css:finder"],
-        ["xpath=//button[@id='divide']", "xpath:attributes"],
-        ["xpath=//button[4]", "xpath:position"]
+        ["id=subtraction", "id"],
+        ["css=#subtraction", "css"],
+        ["css=#subtraction", "css:finder"],
+        ["xpath=//button[@id='subtraction']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -230,13 +230,13 @@
       "id": "5810704c-1be4-47e2-aa72-198e7de0d68d",
       "comment": "",
       "command": "click",
-      "target": "id=times",
+      "target": "id=multiplication",
       "targets": [
-        ["id=divide", "id"],
-        ["css=#divide", "css"],
-        ["css=#divide", "css:finder"],
-        ["xpath=//button[@id='divide']", "xpath:attributes"],
-        ["xpath=//button[4]", "xpath:position"]
+        ["id=multiplication", "id"],
+        ["css=#multiplication", "css"],
+        ["css=#multiplication", "css:finder"],
+        ["xpath=//button[@id='multiplication']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -307,13 +307,13 @@
       "id": "2aa030a3-0b59-4513-b81e-0d815a71f0ab",
       "comment": "",
       "command": "click",
-      "target": "id=divide",
+      "target": "id=division",
       "targets": [
-        ["id=divide", "id"],
-        ["css=#divide", "css"],
-        ["css=#divide", "css:finder"],
-        ["xpath=//button[@id='divide']", "xpath:attributes"],
-        ["xpath=//button[4]", "xpath:position"]
+        ["id=division", "id"],
+        ["css=#division", "css"],
+        ["css=#division", "css:finder"],
+        ["xpath=//button[@id='division']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -384,13 +384,13 @@
       "id": "c940b5e8-95e5-4055-9763-3f6ba9ac9868",
       "comment": "",
       "command": "click",
-      "target": "id=raised",
+      "target": "id=exponentiation",
       "targets": [
-        ["id=divide", "id"],
-        ["css=#divide", "css"],
-        ["css=#divide", "css:finder"],
-        ["xpath=//button[@id='divide']", "xpath:attributes"],
-        ["xpath=//button[4]", "xpath:position"]
+        ["id=exponentiation", "id"],
+        ["css=#exponentiation", "css"],
+        ["css=#exponentiation", "css:finder"],
+        ["xpath=//button[@id='exponentiation']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -418,6 +418,24 @@
       "target": "id=page-title",
       "targets": [],
       "value": "Calculadora.js"
+    }]
+  }, {
+    "id": "fad2b6f9-69e0-467c-949d-448c999cb20e",
+    "name": "Verificar mensagem de erro",
+    "commands": [{
+      "id": "ed3b4b41-fe68-411c-b2a2-6cd6151106ab",
+      "comment": "",
+      "command": "open",
+      "target": "https://castilh0s.github.io/Calculadora-JS/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d3371ca-b9ee-41c3-aefa-dc6e099654b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x1002",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
