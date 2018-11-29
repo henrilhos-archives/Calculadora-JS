@@ -1,5 +1,7 @@
 function Subtraction() {
   this.calculate = function(valueA, valueB) {
-    return valueA - valueB
+    var total = valueA - valueB
+    if (isNaN(total)) return 0
+    else return total
   }
 }
