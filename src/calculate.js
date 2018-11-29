@@ -42,5 +42,19 @@ function calculate(operation) {
   var valueA = parseFloat(document.getElementById('valueA').value)
   var valueB = parseFloat(document.getElementById('valueB').value)
 
+  verifyValues(valueA, valueB)
   document.getElementById('response').innerHTML = operation(valueA, valueB)
+}
+
+function verifyValues(valueA, valueB) {
+  if (isNaN(valueA) && isNaN(valueB)) {
+    document.getElementById('alert').style.display = 'block'
+    document.getElementById('alert-message').innerHTML = 'O primeiro e o segundo valor são inválidos.'
+  } else if (isNaN(valueA)) {
+    document.getElementById('alert').style.display = 'block'
+    document.getElementById('alert-message').innerHTML = 'O primeiro valor é inválido.'
+  } else if (isNaN(valueB)) {
+    document.getElementById('alert').style.display = 'block'
+    document.getElementById('alert-message').innerHTML = 'O seguundo valor é inválido.'
+  } else { document.getElementById('alert').style.display = 'none' }
 }
