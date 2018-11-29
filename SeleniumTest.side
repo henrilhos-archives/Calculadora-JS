@@ -24,12 +24,12 @@
       "id": "4efd5219-856c-4b80-9cb4-51c36eeda712",
       "comment": "",
       "command": "click",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
@@ -37,12 +37,12 @@
       "id": "6e28d0c3-8334-4733-94b7-e8fb6886e7e1",
       "comment": "",
       "command": "type",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "5"
@@ -50,12 +50,12 @@
       "id": "5d1a5f6e-32fd-4d9b-896f-ede5d6293bdb",
       "comment": "",
       "command": "click",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": ""
@@ -63,12 +63,12 @@
       "id": "b1775a4e-2fb3-4292-88ff-275ea48ca50c",
       "comment": "",
       "command": "type",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "5"
@@ -114,12 +114,12 @@
       "id": "2b92a30a-fc41-47c5-9149-7e14c46074e1",
       "comment": "",
       "command": "click",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
@@ -127,12 +127,12 @@
       "id": "90ccea6c-5316-42e3-af3b-436204f51ef6",
       "comment": "",
       "command": "type",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "2"
@@ -140,12 +140,12 @@
       "id": "ba45f15c-0747-434c-b5c0-0451a5505719",
       "comment": "",
       "command": "type",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "2"
@@ -191,12 +191,12 @@
       "id": "8f6229bf-4e5d-40ac-9372-6687c82fe19f",
       "comment": "",
       "command": "click",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
@@ -204,12 +204,12 @@
       "id": "fb4b3c8a-6113-4f7f-88c8-26ef94ae80e7",
       "comment": "",
       "command": "type",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "2"
@@ -217,12 +217,12 @@
       "id": "a5e7ba1d-8cfd-457b-97ac-414bd425b5d3",
       "comment": "",
       "command": "type",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "2"
@@ -268,12 +268,12 @@
       "id": "7cf61a8a-0c9e-4f6a-9fef-f6eb9a53519b",
       "comment": "",
       "command": "click",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
@@ -281,12 +281,12 @@
       "id": "5c7f6e37-70c2-4cc8-8b7f-aabc2d795d14",
       "comment": "",
       "command": "type",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "2"
@@ -294,12 +294,12 @@
       "id": "e3349af1-b851-4838-bfb9-fb6aca5dabbb",
       "comment": "",
       "command": "type",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "2"
@@ -345,12 +345,12 @@
       "id": "8eaf99dd-1650-4d06-8bd9-d81feaae4c73",
       "comment": "",
       "command": "click",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
@@ -358,12 +358,12 @@
       "id": "aef29a2c-ffaf-4bbd-b83f-7befa19b7f9a",
       "comment": "",
       "command": "type",
-      "target": "id=num1",
+      "target": "id=valueA",
       "targets": [
-        ["id=num1", "id"],
-        ["css=#num1", "css"],
-        ["css=#num1", "css:finder"],
-        ["xpath=//input[@id='num1']", "xpath:attributes"],
+        ["id=valueA", "id"],
+        ["css=#valueA", "css"],
+        ["css=#valueA", "css:finder"],
+        ["xpath=//input[@id='valueA']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "2"
@@ -371,12 +371,12 @@
       "id": "478e43a9-9c7b-4972-b1d0-43390a71c10c",
       "comment": "",
       "command": "type",
-      "target": "id=num2",
+      "target": "id=valueB",
       "targets": [
-        ["id=num2", "id"],
-        ["css=#num2", "css"],
-        ["css=#num2", "css:finder"],
-        ["xpath=//input[@id='num2']", "xpath:attributes"],
+        ["id=valueB", "id"],
+        ["css=#valueB", "css"],
+        ["css=#valueB", "css:finder"],
+        ["xpath=//input[@id='valueB']", "xpath:attributes"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "2"
