@@ -771,7 +771,7 @@
       "command": "verifyText",
       "target": "id=alert-message",
       "targets": [],
-      "value": "O seguundo valor é inválido."
+      "value": "O segundo valor é inválido."
     }, {
       "id": "7a299d88-5272-47c5-bce9-98fb2e199d2c",
       "comment": "",
@@ -791,7 +791,7 @@
       "command": "verifyText",
       "target": "id=alert-message",
       "targets": [],
-      "value": "O seguundo valor é inválido."
+      "value": "O segundo valor é inválido."
     }, {
       "id": "f1427de5-e283-456c-a6a9-2680c81e3991",
       "comment": "",
@@ -811,7 +811,7 @@
       "command": "verifyText",
       "target": "id=alert-message",
       "targets": [],
-      "value": "O seguundo valor é inválido."
+      "value": "O segundo valor é inválido."
     }, {
       "id": "e47e6ba3-4da6-4fbf-974b-0c762b20d052",
       "comment": "",
@@ -831,7 +831,7 @@
       "command": "verifyText",
       "target": "id=alert-message",
       "targets": [],
-      "value": "O seguundo valor é inválido."
+      "value": "O segundo valor é inválido."
     }, {
       "id": "fbc32f03-0c5d-4aa9-bffa-08eb70c096ff",
       "comment": "",
@@ -851,7 +851,7 @@
       "command": "verifyText",
       "target": "id=alert-message",
       "targets": [],
-      "value": "O seguundo valor é inválido."
+      "value": "O segundo valor é inválido."
     }]
   }],
   "suites": [{

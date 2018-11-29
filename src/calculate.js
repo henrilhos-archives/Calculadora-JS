@@ -55,6 +55,6 @@ function verifyValues(valueA, valueB) {
     document.getElementById('alert-message').innerHTML = 'O primeiro valor é inválido.'
   } else if (isNaN(valueB)) {
     document.getElementById('alert').style.display = 'block'
-    document.getElementById('alert-message').innerHTML = 'O seguundo valor é inválido.'
+    document.getElementById('alert-message').innerHTML = 'O segundo valor é inválido.'
   } else { document.getElementById('alert').style.display = 'none' }
 }
